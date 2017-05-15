@@ -1,6 +1,6 @@
-ICA01 - Gruppe 11
+                                                            ICA01 - Gruppe 11
 
-1.2.1 Binære tall 
+                                                             Oppgave 1.2.1
 
 (1) 1 =  0001
 1 bit  
@@ -31,7 +31,9 @@ Konverter følgende binære tall til desimaltall (mest signifikante bit-en er ti
 
 Metoden vi brukte var å først finne desimaltallet til alle bittene i binærtallet som er 1. Desimaltallet finner vi ved å gå fra høyre til venstre, den første bitten har desimaltallet 1, den neste 2, 4, 8, 16, osv. Så om bit = 1, tar vi ut desimaltallet til den biten, om bit = 0 tar vi det ikke ut. Slik gikk vi gjennom hele binærtallet. Deretter plusset vi sammen de desimaltallene vi tok ut som igjen gir oss svaret.
 
-1.2.2 Informasjonsmengde
+
+
+                                                            Oppgave 1.2.2 
 
 Flere personer prøver å gjette et tresifret (3-bit) binært tall. 
 (1) Lise har fått vite / lærer at tallet er et oddetall. 
@@ -59,7 +61,7 @@ log2(7/1) = 2.807 = 3 bit
 
 
 
-1.2.3 Arbeid med git 
+                                                            Oppgave 1.2.3
 
 
 Brukte Git Bash.
@@ -78,7 +80,10 @@ git remote -v for å se om det stemte med riktig url.
 
 
 
-1.2.4 Samarbeid i Git og Introduksjon i Golang 
+                                                            Oppgave 1.2.4
+                                                            
+                                                            
+                                                            
 1) Hvilken fordeler og ulemper har en git-flow-modell med en hovedrepository? 
 
 En av fordelene med Git, er at alle får en oversikt over hvor prosjektet er underveis.
@@ -91,7 +96,10 @@ Det er også en grei løsning for et felles oppbevaringssted for sine filer og p
 Ulempene er at det gjerne krever litt tid, for å sette seg inn i modellen og lære seg alle kommandoene man må bruke for å få en fin flyt over arbeidet.
 Igjen så virker det litt lite hensiktsmessig å bruke og holde kontroll over alle kommandoene man må gjøre i cmd, i stede for å bruke tradisjonelt GUI for å gjøre jobben og holde oversikt.
 Men kan se verdien i modellen ved at det kan bli svært effektivt når man har fått en god forståelse over arbeidsmetoden. (kilde)
-2) Finn ut hva heter objektfiler for de mest brukte platformer (Unix/Linux, MS Windows, Mac OS X)! Hvorfor, etter deres mening, har disse platformene så forskjellige objektfil-formater?
+
+
+
+                                                            Oppgave 2
 // Github mappe; “Hello”
 
 Windows = .exe
@@ -105,7 +113,7 @@ De forskjellige operativsystemene opererer med forskjellige fil extensions for a
 Grunnen til at det er forskjellige object filer, er hvordan den binære koden og logaritmen er skrevet, og hvordan det skal bli tolket av datamaskinen.
 Plattformene er bygd opp for å tolke de forskjellige logaritmene mest effektivt
 
-3) Hvilke forskjeller ser dere i forhold til programmeringsspråket Java? 
+                                                            Oppgave 3
 // Github mappe; “logbase2”
 
 Alle go programmer er bygd opp av pakker. Det er ingen bruk av klasser i go. Bruken av private og public variabler er også ikke tilstede.
@@ -133,7 +141,7 @@ I Go har man bare bruk av en for løkke, og man trenger ikke å legge inn parent
 
 Hovedforskjellen fra Go til Java, er at Go er mer strukturert og krever litt mindre presisjon. Å definerer typer er blitt gjort enklere, og det er en vesentlig forkortning av nødvendig kode skriving for å oppnå det samme som i Java. (kilde)
 
-4) Hvilke viktige poeng illustrerer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en plattform?
+                                                            Oppgave 4
 Når man compiler på Go Lang så compiler slik at det er konfigurert til det plattformen man programmerer på f.eks. Linux / Windows, og når det er compiled så lagrer Go Lang hele standardbiblioteket (de du har brukt f.eks. fmt) slik at du kan kjøre programmet raskere.
 
 Denne oppgaven viser at ved bruk av github/git er det lett å ta i bruk andres kode raskt og effektivt, samt legge ut din kode for andre gruppemedlemmer å bruke. 
@@ -149,10 +157,14 @@ main.go:
 Resultat i kommandolinje: (log2 av 8)
 
 
+                                                            Oppgave 5
+
 5) Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!
 // Github mappe; “logbase2input”
 
 
+
+                                                            Oppgave 6
 
 6) Hvordan skiller pakken log​, som dere har implementer, seg fra andre pakker i go, som, for eksempel, fmt​? 
 // Github mappe; “LogProgram”

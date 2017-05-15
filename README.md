@@ -92,6 +92,7 @@ Ulempene er at det gjerne krever litt tid, for å sette seg inn i modellen og l�
 Igjen så virker det litt lite hensiktsmessig å bruke og holde kontroll over alle kommandoene man må gjøre i cmd, i stede for å bruke tradisjonelt GUI for å gjøre jobben og holde oversikt.
 Men kan se verdien i modellen ved at det kan bli svært effektivt når man har fått en god forståelse over arbeidsmetoden. (kilde)
 2) Finn ut hva heter objektfiler for de mest brukte platformer (Unix/Linux, MS Windows, Mac OS X)! Hvorfor, etter deres mening, har disse platformene så forskjellige objektfil-formater?
+// Github mappe; “Hello”
 
 Windows = .exe
 OS = .dmg som mountes ved hjelp av .app extension.
@@ -99,11 +100,13 @@ Linux = RUN, OUT
 BIN = Er en binary executable som Windows, OS og Linux kan kjøre.
 
 
+
 De forskjellige operativsystemene opererer med forskjellige fil extensions for at systemene og programmene skal kunne tolke innholdet og hvordan det skal utføres.
 Grunnen til at det er forskjellige object filer, er hvordan den binære koden og logaritmen er skrevet, og hvordan det skal bli tolket av datamaskinen.
 Plattformene er bygd opp for å tolke de forskjellige logaritmene mest effektivt
 
 3) Hvilke forskjeller ser dere i forhold til programmeringsspråket Java? 
+// Github mappe; “logbase2”
 
 Alle go programmer er bygd opp av pakker. Det er ingen bruk av klasser i go. Bruken av private og public variabler er også ikke tilstede.
 
@@ -147,9 +150,12 @@ Resultat i kommandolinje: (log2 av 8)
 
 
 5) Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!
+// Github mappe; “logbase2input”
+
 
 
 6) Hvordan skiller pakken log​, som dere har implementer, seg fra andre pakker i go, som, for eksempel, fmt​? 
+// Github mappe; “LogProgram”
 
 
 

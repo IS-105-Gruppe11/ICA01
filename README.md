@@ -161,13 +161,16 @@ Resultat i kommandolinje: (log2 av 8)
 
 5) Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!
 // Github mappe; “logbase2input”
-
+Filen logcli.go i  master branch kjøres ved "go run logcli.go (3 11)" der første parameter er LogBase-3 og andre parameter er LogBase-11. 
 
 
                                                             Oppgave 6
 
 6) Hvordan skiller pakken log​, som dere har implementer, seg fra andre pakker i go, som, for eksempel, fmt​? 
 // Github mappe; “LogProgram”
+
+Hver pakke har forskjellige metoder som utfører forskjellige funksjoner.
+
 
 
 

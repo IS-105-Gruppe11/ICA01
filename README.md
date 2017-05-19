@@ -132,8 +132,6 @@ Plattformene er bygd opp for å tolke de forskjellige logaritmene mest effektivt
 
 3) Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?
 
-// Github mappe; “logbase2”
-
 Alle go programmer er bygd opp av pakker. Det er ingen bruk av klasser i go. Bruken av private og public variabler er også ikke tilstede.
 
 Go kan kompilere direkte inn i en kjørende program fil, som kan bli kjørt av alle platformer av samme OS. Det er heller ikke bruk for en konstruktor.
@@ -162,31 +160,30 @@ Hovedforskjellen fra Go til Java, er at Go er mer strukturert og krever litt min
  
 4) Hvilke viktige poeng illustrerer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en platform?
 
+// Github mappe; “logbase2”
+
+- Regner ut Log2 av 32 (hardkodet i filen)
+
 Når man compiler på Go Lang så compiler slik at det er konfigurert til det plattformen man programmerer på f.eks. Linux / Windows, og når det er compiled så lagrer Go Lang hele standardbiblioteket (de du har brukt f.eks. fmt) slik at du kan kjøre programmet raskere.
 
 Denne oppgaven viser at ved bruk av github/git er det lett å ta i bruk andres kode raskt og effektivt, samt legge ut din kode for andre gruppemedlemmer å bruke. 
 Hvis noen av medlemmene ikke får kjørt sin kode, så kan man bruke flere medlemmer til å samarbeide om flere kreative løsninger og finne eventuelle feil i andre koder. Dette gir en mer effektiv ressursbruk av hverandres ideer og tankeganger. 
 Etter vi har jobbet sammen på denne oppgaven, så har det gitt oss en bedre forståelse for hvordan man kan kjøre kode/beregninger ved hjelp av commands og en bedre forståelse for golang sin oppbygging.
 
-log.go:
 
-
-main.go:
-
-
-Resultat i kommandolinje: (log2 av 8)
 
 
 5) Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!
 
 // Github mappe; “logbase2input”
-Filen logcli.go i  master branch kjøres ved "go run logcli.go (3 11)" der første parameter er LogBase-3 og andre parameter er LogBase-11. 
+- Filen logcli.go kjøres ved "go run logcli.go" og så tallet du ønsker å finne log2 av. 
 
 Det er hensiktsmessig ettersom logcli kan brukes til videre utvikling til logbcli i neste oppgave. Om filen ligger i en github repository kan alle "clone", eventuelt "forke" repositorien til sin maskin og gjøre endringer på filen lokalt. Deretter kan man ta "pull request" og bidra med utviklingen av programmet. 
 
 
 6) Hvordan skiller pakken log​, som dere har implementert, seg fra andre pakker i go, som, for eksempel, fmt​? 
 // Github mappe; “LogProgram”
+- Programmet kjøres ved å skrive "./main" og så enten 10 eller 2 for utregning i base10 eller base2. Deretter det tallet du ønsker å regne logaritment til. 
 
 "Log" pakken som vi har implementert ligger lokalt på maskinen og blir importert ved å skrive "filepath" til pakken. Eksempel: "./log". Pakker som "fmt" kommer fra standarbiblioteket til Go og blir impotert derfra har bare navnet i importen: "fmt". Om vi hadde skrevet "log" import setningen til programmet ville vi ha implementert "log" fra standarbiblioteket. 
 

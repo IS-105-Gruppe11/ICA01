@@ -18,14 +18,19 @@
 
 (1) 1 =  0001
 1 bit  
+
 (2) 2 = 0010
 2 bit
+
 (3) 5  = 0101 
 3 bits
+
 (4) 8  = 1000
 4 bits
+
 (5) 16 = 0001 0000
 5 bits
+
 (6) 256 = 0001 0000 0000
 9 bits
 
@@ -40,7 +45,9 @@ For å finne antall bits:
 Konverter følgende binære tall til desimaltall (mest signifikante bit-en er til venstre): 
 
 (1) 100 = 4
+
 (2) 1001 = 9
+
 (3) 1100110011 = 819
 
 Metoden vi brukte var å først finne desimaltallet til alle bittene i binærtallet som er 1. Desimaltallet finner vi ved å gå fra høyre til venstre, den første bitten har desimaltallet 1, den neste 2, 4, 8, 16, osv. Så om bit = 1, tar vi ut desimaltallet til den biten, om bit = 0 tar vi det ikke ut. Slik gikk vi gjennom hele binærtallet. Deretter plusset vi sammen de desimaltallene vi tok ut som igjen gir oss svaret.
@@ -79,18 +86,18 @@ log2(7/1) = 2.807 = 3 bit
 
 
 Brukte Git Bash.
-cd C:/
-mkdir Work
-git init.
-git clone https://github.com/jeroenbijl92/Is105-uke4
-Dro inn hello.go i notepad og skrev en oppdatering.
-git status for å sjekke modifikasjonen.
-git add hello.go
-git commit -m "en melding til gruppen"
- Logge inn. git config user.name "your name"
-git push origin master.
- Måtte også bruke git remote add for å linke til repository
-git remote -v for å se om det stemte med riktig url.
+- cd C:/
+- mkdir Work
+- git init.
+- git clone https://github.com/jeroenbijl92/Is105-uke4
+- Dro inn hello.go i notepad og skrev en oppdatering.
+- git status for å sjekke modifikasjonen.
+- git add hello.go
+- git commit -m "en melding til gruppen"
+- Logge inn. git config user.name "your name"
+- git push origin master.
+- Måtte også bruke git remote add for å linke til repository
+- git remote -v for å se om det stemte med riktig url.
 
 
 

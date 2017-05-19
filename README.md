@@ -112,8 +112,10 @@ Igjen så virker det litt lite hensiktsmessig å bruke og holde kontroll over al
 Men kan se verdien i modellen ved at det kan bli svært effektivt når man har fått en god forståelse over arbeidsmetoden. (kilde)
 
 
-
-                                                            Oppgave 2
+2) Finn ut hva heter objektfiler for de mest brukte platformer
+ (Unix/Linux, MS Windows, Mac OS X)! Hvorfor, etter deres mening, har disse
+ platformene så forskjellige objektfil-formater?
+ 
 // Github mappe; “Hello”
 
 Windows = .exe
@@ -127,7 +129,9 @@ De forskjellige operativsystemene opererer med forskjellige fil extensions for a
 Grunnen til at det er forskjellige object filer, er hvordan den binære koden og logaritmen er skrevet, og hvordan det skal bli tolket av datamaskinen.
 Plattformene er bygd opp for å tolke de forskjellige logaritmene mest effektivt
 
-                                                            Oppgave 3
+
+3) Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?
+
 // Github mappe; “logbase2”
 
 Alle go programmer er bygd opp av pakker. Det er ingen bruk av klasser i go. Bruken av private og public variabler er også ikke tilstede.
@@ -155,7 +159,9 @@ I Go har man bare bruk av en for løkke, og man trenger ikke å legge inn parent
 
 Hovedforskjellen fra Go til Java, er at Go er mer strukturert og krever litt mindre presisjon. Å definerer typer er blitt gjort enklere, og det er en vesentlig forkortning av nødvendig kode skriving for å oppnå det samme som i Java. (kilde)
 
-                                                            Oppgave 4
+ 
+4) Hvilke viktige poeng illustrerer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en platform?
+
 Når man compiler på Go Lang så compiler slik at det er konfigurert til det plattformen man programmerer på f.eks. Linux / Windows, og når det er compiled så lagrer Go Lang hele standardbiblioteket (de du har brukt f.eks. fmt) slik at du kan kjøre programmet raskere.
 
 Denne oppgaven viser at ved bruk av github/git er det lett å ta i bruk andres kode raskt og effektivt, samt legge ut din kode for andre gruppemedlemmer å bruke. 
@@ -171,19 +177,18 @@ main.go:
 Resultat i kommandolinje: (log2 av 8)
 
 
-                                                            Oppgave 5
-
 5) Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!
+
 // Github mappe; “logbase2input”
 Filen logcli.go i  master branch kjøres ved "go run logcli.go (3 11)" der første parameter er LogBase-3 og andre parameter er LogBase-11. 
 
+Det er hensiktsmessig ettersom logcli kan brukes til videre utvikling til logbcli i neste oppgave. Om filen ligger i en github repository kan alle "clone", eventuelt "forke" repositorien til sin maskin og gjøre endringer på filen lokalt. Deretter kan man ta "pull request" og bidra med utviklingen av programmet. 
 
-                                                            Oppgave 6
 
-6) Hvordan skiller pakken log​, som dere har implementer, seg fra andre pakker i go, som, for eksempel, fmt​? 
+6) Hvordan skiller pakken log​, som dere har implementert, seg fra andre pakker i go, som, for eksempel, fmt​? 
 // Github mappe; “LogProgram”
 
-Hver pakke har forskjellige metoder som utfører forskjellige funksjoner.
+"Log" pakken som vi har implementert ligger lokalt på maskinen og blir importert ved å skrive "filepath" til pakken. Eksempel: "./log". Pakker som "fmt" kommer fra standarbiblioteket til Go og blir impotert derfra har bare navnet i importen: "fmt". Om vi hadde skrevet "log" import setningen til programmet ville vi ha implementert "log" fra standarbiblioteket. 
 
 
 

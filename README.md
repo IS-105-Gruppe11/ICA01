@@ -118,16 +118,15 @@ Men kan se verdien i modellen ved at det kan bli svært effektivt når man har f
  
 // Github mappe; “Hello”
 
+- Ulike platformer sine objetfiler:
 Windows = .exe
 OS = .dmg som mountes ved hjelp av .app extension.
 Linux = RUN, OUT
 BIN = Er en binary executable som Windows, OS og Linux kan kjøre.
 
-
-
 De forskjellige operativsystemene opererer med forskjellige fil extensions for at systemene og programmene skal kunne tolke innholdet og hvordan det skal utføres.
-Grunnen til at det er forskjellige object filer, er hvordan den binære koden og logaritmen er skrevet, og hvordan det skal bli tolket av datamaskinen.
-Plattformene er bygd opp for å tolke de forskjellige logaritmene mest effektivt
+Grunnen til at det er forskjellige object filer, er hvordan den binære koden og algoritmen er skrevet, og hvordan det skal bli tolket av datamaskinen.
+Plattformene er bygd opp for å tolke de forskjellige algoritmene mest effektivt.
 
 
 3) Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?
@@ -182,6 +181,7 @@ Det er hensiktsmessig ettersom logcli kan brukes til videre utvikling til logbcl
 
 
 6) Hvordan skiller pakken log​, som dere har implementert, seg fra andre pakker i go, som, for eksempel, fmt​? 
+
 // Github mappe; “LogProgram”
 - Programmet kjøres ved å skrive "./main" og så enten 10 eller 2 for utregning i base10 eller base2. Deretter det tallet du ønsker å regne logaritment til. 
 
